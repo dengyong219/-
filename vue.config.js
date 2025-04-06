@@ -10,6 +10,6 @@ module.exports = {
         }
     },
     configureWebpack: require('./webpack.config.js'),//该对象将会被 webpack-merge[合并_插件] 合并入最终的 webpack 配置。【意思就是把我们自己配置的和默认配置的进行合并，最终形成webpack配置】
-    publicPath: process.env.NODE_ENV === 'production' ? '/your-project-name/' : '/',
+    publicPath: process.env.NODE_ENV === 'production' ? '/-/' : '/',
 
 }
