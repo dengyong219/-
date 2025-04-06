@@ -1,0 +1,32 @@
+@danger: #cc3600; // 危险、错误
+@primary: #00ffffca; // 主色调、链接
+@words: #373737; // 大部分文字、深色文字
+@lightWords: #999; // 少部分文字、浅色文字
+@warn: #c3a900; // 警告
+@success: #7ebf50; // 成功
+@gray: #b4b8bc; // 灰色
+@dark: #202020; // 深色
+@f40: #f40;
+@hover: #417f8e; // 鼠标悬停颜色
+@btn: #6b9eee; //按钮颜色
+
+.tranJuzhong(@isChange: absolute) {
+    position: @isChange;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.df(@pos: flex) {
+    display: @pos;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgDingWei(@pos: absolute) {
+    position: @pos;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

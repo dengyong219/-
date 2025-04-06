@@ -1,0 +1,44 @@
+{
+  "name": "myweb",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "DANGEROUSLY_DISABLE_HOST_CHECK=true react-scripts start",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --modern",
+    "serve:Icon": "vue serve ./src/components/Icon/test.vue",
+    "serve:Pagin": "vue serve ./src/components/Pagin/test.vue",
+    "serve:Touxiang": "vue serve ./src/components/Touxiang/test.vue",
+    "serve:Empty": "vue serve ./src/components/Empty/test.vue",
+    "serve:ImageLoader": "vue serve ./src/components/ImageLoader/test.vue",
+    "serve:Contact": "vue serve ./src/components/SiteAside/Contact/test.vue",
+    "serve:Menu": "vue serve ./src/components/SiteAside/Menu/test.vue",
+    "serve:Site": "vue serve ./src/components/SiteAside/test.vue",
+    "serve:Layout": "vue serve ./src/components/Layout/test.vue",
+    "serve:Loading": "vue serve ./src/components/Loading/test.vue",
+    "serve:rightTest": "vue serve ./src/Mores/Wenzhang/components/rightTest.vue",
+    "serve:retruntop": "vue serve ./src/components/returnTop/text.vue",
+    "serve:this404": "vue serve ./src/Mores/this404/text.vue"
+  },
+  "dependencies": {
+    "animate": "^1.0.0",
+    "axios": "^1.7.7",
+    "core-js": "^3.6.5",
+    "highlight.js": "^11.10.0",
+    "mockjs": "^1.1.0",
+    "nprogress": "^0.2.0",
+    "query-string": "^9.1.1",
+    "serve": "^14.2.4",
+    "vue": "^2.6.11",
+    "vue-router": "^3.4.9",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.8",
+    "@vue/cli-service": "~4.5.8",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "vue-template-compiler": "^2.6.11",
+    "webpack-bundle-analyzer": "^4.10.2"
+  }
+}

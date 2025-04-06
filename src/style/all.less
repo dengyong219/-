@@ -1,0 +1,43 @@
+@import './var.less';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+// 清除 div 点击有小竖框 
+div {
+    -webkit-user-select: none;
+    /* 谷歌 */
+    -moz-user-select: none;
+    /* 火狐 */
+    -ms-user-select: none;
+    /* IE */
+    user-select: none;
+}
+
+html {
+    color: @words;
+    font-family: "-apple-system", "BlinkMacSystemFont", "Roboto", "Helvetica Neue",
+        "微软雅黑", sans-serif;
+    overflow: hidden;
+}
+
+body {
+    overflow: hidden;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+    &:hover {
+        color: @primary;
+    }
+}

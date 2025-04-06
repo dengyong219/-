@@ -1,0 +1,42 @@
+@import '../style/all.less';
+@import '../style/var.less';
+
+.module {
+    .tranJuzhong();
+    z-index: 999 !important;
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+    border-radius: 13px;
+    color: #fff;
+    box-shadow: inset 0px 2px 5px #ffffff, 0px 2px 5px #868686;
+    transform: translate(-50%, -50%) translateY(100px) scale(0);
+    opacity: 0;
+    transition: .5s;
+    white-space: nowrap;
+    // position: absolute;
+
+    &-info {
+        // position: fixed;
+        background: #458a9ae1;
+    }
+
+    &-cuowu {
+        background: @f40;
+    }
+
+    &-zhengque {
+        background: @success;
+    }
+
+    &-jinggao {
+        background: @warn;
+    }
+}
+
+// info cuowu zhengque jinggao
+.iconStyle {
+    padding-right: 7px;
+    font-size: 25px;
+    font-weight: bold;
+}
